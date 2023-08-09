@@ -1,13 +1,15 @@
 
 .header{
-    background: url(./images/landing-image.png);
+    background: url(./images/landing-image.png) fixed;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     color: white;
     padding: 10px;
 }
-
+.colored{
+    color: #F14648;
+}
 .nav-link{
     color: white;
 }
@@ -48,18 +50,62 @@
 .small{
     padding: 10px;   
 }
-
-
+.best-container{
+        text-align: center;
+        align-items: center;
+        justify-content:center;
+        margin-top: 50px;
+}
+.card{
+    padding: 10px;
+   margin: 10px;
+   margin-top: 20px;
+   width: 400px;
+   text-align: left;
+}
+.Rental{
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    margin-top: 50px;
+}
+.leftContainer{
+    text-align: left;
+    padding-top: 150px;
+}
+.imageContainer{
+    height: 100%;
+    width: 100%;
+}
+.Drive{
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    margin-top: 50px;
+    background: url(../src/images/CTA\ BG.png) no-repeat; 
+    background-size: contain;  
+    color: white; 
+    height: 100vh;
+}
+.Footer{
+   padding-top: 100px;
+   padding-bottom: 100px;
+   background-color: #ECEEF4;
+   margin: 0;
+}
+.bottom{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.cardBtn{
+    width: 100px;
+}
 @media (max-width:900px) {
   
   .header{
-    background: url(./images/landing-image.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url(./images/Rec3.png) no-repeat;
     height: 100vh;
-    color: white;
-    padding: 10px;
-    text-align: left;
 }
 .header-content h1{
     font-size: 3rem;
@@ -83,5 +129,23 @@
     position: absolute;
     padding-right: 5px;
     left: 13%;
+}
+.leftContainer{
+    text-align: left;
+    padding-top: 50px;
+}
+.Drive{
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    margin-top: 50px;
+     background: url(../src/images/Rec2.png) no-repeat;
+     background-size: cover;   
+    height: 100vh;
+}
+.bottom{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 }

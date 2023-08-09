@@ -6,7 +6,7 @@ const Header = () => {
       <Nav/>
       <div className='header-content'>
       <h1>Rent A Car & <br/>
-Travel Endless</h1>
+Travel <span className='colored'>Endless</span></h1>
 <p>No reservation costs. Great rates.<br/>
 Find What You Need actually.</p>
 <button className='btn'>Contact us</button>

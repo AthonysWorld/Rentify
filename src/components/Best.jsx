@@ -1,5 +1,5 @@
 
-import Card1 from '../images/card-image1.png'
+// import Card1 from '../images/card-image1.png'
 import Card2 from '../images/card-image2.png'
 import Card3 from '../images/card-image3.png'
 
@@ -12,7 +12,7 @@ const Best = () => {
      
      <div className='container-fluid row best-container'>
      <div className='card col-lg-4'>
-     <img src={Card1}/>
+     {/* <img src={Card1}/> */}
 <h5>Toyota Corolla T-20</h5>
 <span><input type='checkbox' checked/> Air Conditioned</span>
 <span><input type='checkbox' checked/> Bluetooth Sound System</span>

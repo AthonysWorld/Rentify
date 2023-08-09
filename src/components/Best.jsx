@@ -1,7 +1,7 @@
 
-import image1 from '../images/card-image1.png'
-import image2 from '../images/card-image2.png'
-import image3 from '../images/card-image3.png'
+import Card1 from '../images/card-image1.png'
+import Card2 from '../images/card-image2.png'
+import Card3 from '../images/card-image3.png'
 
 const Best = () => {
   return (
@@ -12,7 +12,7 @@ const Best = () => {
      
      <div className='container-fluid row best-container'>
      <div className='card col-lg-4'>
-     <img src={image1}/>
+     <img src={Card1}/>
 <h5>Toyota Corolla T-20</h5>
 <span><input type='checkbox' checked/> Air Conditioned</span>
 <span><input type='checkbox' checked/> Bluetooth Sound System</span>
@@ -21,7 +21,7 @@ const Best = () => {
      </div>
 
      <div className='card col-lg-4'>
-     <img src={image2}/>
+     <img src={Card2}/>
 <h5>Toyota Corolla T-20</h5>
 <span><input type='checkbox' checked/> Air Conditioned</span>
 <span><input type='checkbox' checked/> Bluetooth Sound System</span>
@@ -30,7 +30,7 @@ const Best = () => {
         </div>
 
         <div className='card col-lg-4'>
-        <img src={image3}/>
+        <img src={Card3}/>
 <h5>Toyota Corolla T-20</h5>
 <span><input type='checkbox' checked/> Air Conditioned</span>
 <span><input type='checkbox' checked/> Bluetooth Sound System</span>
